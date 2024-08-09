@@ -1,9 +1,15 @@
-class Rupees{
-         
-		 Rupees()
-		 {  
-		 int amount;
-		 String inWords;
-		 String rupeesName;
-		 }
+cclass Rupee
+{
+	String name;
+	String material;
+	int quantity;
+	
+	public Rupee()
+	{
+		System.out.println("creating a rupee");
+	}
+	
+	
+	
+	
 }
